@@ -101,7 +101,14 @@ p {
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
+
+        border: 1px solid #ddd;
+
+
+        margin-bottom: 2rem;
+
+    }
+
 
 .project img {
     width: 100%;
@@ -111,6 +118,21 @@ p {
 .project img:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
+}
+
+.completed {
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+.in-progress {
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 
