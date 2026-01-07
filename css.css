@@ -108,10 +108,12 @@ p {
     height: auto;
     margin-bottom: 1rem;
 }
+.project img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
 
-/* =====================
-   WORKFLOW & LEARNING
-===================== */
+
 .Workflow,
 .Learning {
     background-color: #ffffff;
@@ -119,9 +121,7 @@ p {
     border-radius: 8px;
 }
 
-/* =====================
-   FOOTER
-===================== */
+
 footer {
     background-color: #222;
     color: #ffffff;
@@ -139,9 +139,7 @@ footer a {
     text-decoration: underline;
 }
 
-/* =====================
-   RESPONSIVE
-===================== */
+
 @media (max-width: 768px) {
 
     .navbar {
