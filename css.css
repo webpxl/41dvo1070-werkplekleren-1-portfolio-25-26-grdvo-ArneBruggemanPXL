@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+
+
 header{
     display:block;
     padding:10px;
@@ -38,7 +41,6 @@ header {
     align-items: center;
 }
 
-/* Naam links */
 .name .navbar-brand {
     font-weight: bold;
     font-size: 1.2rem;
@@ -46,7 +48,7 @@ header {
     text-decoration: none;
 }
 
-/* Navigatie links */
+
 .navbar .nav-link {
     margin-left: 1.5rem;
     text-decoration: none;
@@ -58,9 +60,7 @@ header {
     text-decoration: underline;
 }
 
-/* =====================
-   SECTIONS ALGEMEEN
-===================== */
+
 main {
     max-width: 900px;
     margin: 3rem auto;
@@ -79,9 +79,7 @@ p {
     margin-bottom: 1rem;
 }
 
-/* =====================
-   PERSON / KEUZE
-===================== */
+
 #person h1 {
     font-size: 1.8rem;
 }
@@ -93,9 +91,7 @@ p {
     margin-top: 2rem;
 }
 
-/* =====================
-   PROJECTEN
-===================== */
+
 .project {
     background-color: #ffffff;
     padding: 1.5rem;

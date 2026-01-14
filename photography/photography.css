@@ -1,0 +1,110 @@
+/* Photography pagina styling - apart van globale CSS */
+
+.photo-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 2px solid #f4a96c;
+    align-items: center;
+}
+
+.photo-brand a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.photo-link {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.photo-link:hover {
+    text-decoration: underline;
+}
+
+.photo-link.active {
+    color: #f4a96c;
+    font-weight: bold;
+}
+
+.photo-hero {
+    background-image: url('../assets/Licht/20250923_193603.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 5px solid #f4a96c;
+}
+
+.photo-filter {
+    max-width: 900px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.photo-filter button {
+    margin: 0 10px;
+    padding: 0.5rem 1rem;
+    border: 2px solid #f4a96c;
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.photo-filter button:hover {
+    background-color: #f4a96c;
+    color: white;
+}
+
+.photo-gallery {
+    max-width: 900px;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photo-item {
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+.photo-img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #f4a96c;
+}
+
+.photo-item p {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #333;
+}
+
+.photo-footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+    .photo-hero {
+        font-size: 2rem;
+        height: 300px;
+    }
+}
