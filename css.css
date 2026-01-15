@@ -4,6 +4,112 @@
     box-sizing: border-box;
 }
 
+.aim-reflectie h2 {
+    color: #f4a96c;
+    margin-top: 2rem;
+}
+
+.aim-reflectie p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.wpl2-reflectie h2 {
+    color: #f4a96c;
+    margin-top: 2rem;
+}
+
+.wpl2-reflectie p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.x-factor-reflectie,
+.rol-digitaalvormgever,
+.rol-frontend,
+.rol-communicator,
+.rol-lerende {
+    max-width: 900px;      /*zelfde breedte als andere pagina's*/
+    margin: 0 auto 50px;   /*centeren + ruimte onder secties*/
+    padding: 20px;
+    background-color: #f8f8f8; /*lichte achtergrond voor contrast*/
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+
+.x-factor-reflectie h2,
+.rol-digitaalvormgever h2,
+.rol-frontend h2,
+.rol-communicator h2,
+.rol-lerende h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #f4a96c;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d1d1d1;
+    padding-bottom: 5px;
+}
+
+
+.x-factor-reflectie h3,
+.rol-digitaalvormgever h3,
+.rol-frontend h3,
+.rol-communicator h3,
+.rol-lerende h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.x-factor-reflectie p,
+.rol-digitaalvormgever p,
+.rol-frontend p,
+.rol-communicator p,
+.rol-lerende p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+.x-factor-reflectie p.strong,
+.rol-digitaalvormgever p.strong {
+    font-weight: 600;
+    color: #222;
+}
+
+
+@media (max-width: 768px) {
+    .x-factor-reflectie,
+    .rol-digitaalvormgever,
+    .rol-frontend,
+    .rol-communicator,
+    .rol-lerende {
+        padding: 15px;
+    }
+
+    .x-factor-reflectie h2,
+    .rol-digitaalvormgever h2,
+    .rol-frontend h2,
+    .rol-communicator h2,
+    .rol-lerende h2 {
+        font-size: 1.5rem;
+    }
+
+    .x-factor-reflectie h3,
+    .rol-digitaalvormgever h3,
+    .rol-frontend h3,
+    .rol-communicator h3,
+    .rol-lerende h3 {
+        font-size: 1.1rem;
+    }
+}
 
 
 
