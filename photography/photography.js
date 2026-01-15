@@ -31,10 +31,9 @@ function displayPhotos(filter = "all") {
     });
 }
 
-// Eerst alle foto's tonen
 displayPhotos();
 
-// Filterknoppen koppelen
+
 document.querySelectorAll('.photo-filter button').forEach(btn => {
     btn.addEventListener('click', () => {
         displayPhotos(btn.getAttribute('data-theme'));
