@@ -7,9 +7,6 @@ const photos = [
     {theme: "licht", src: "../assets/Licht/licht (11).jpg", caption: "licht1"},
     {theme: "licht", src: "../assets/Licht/licht (12).jpg", caption: "licht1"},
     {theme: "licht", src: "../assets/Licht/licht (14).jpg", caption: "licht1"},
-
-
-
     {theme: "bloemen", src: "../assets/bloemen/bloem (1).jpg", caption: ""},
     {theme: "bloemen", src: "../assets/bloemen/bloem (2).jpg", caption: ""},
     {theme: "bloemen", src: "../assets/bloemen/bloem (3).jpg", caption: ""},
